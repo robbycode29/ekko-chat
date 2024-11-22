@@ -59,7 +59,7 @@ export default defineComponent({
                     },
                     body: JSON.stringify({
                         query: this.search,
-                        limit: 20,
+                        limit: 100,
                     })
                 })
                 const data = await response.json()
